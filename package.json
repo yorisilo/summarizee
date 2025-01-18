@@ -3,9 +3,16 @@
   "module": "index.ts",
   "type": "module",
   "devDependencies": {
+    "@biomejs/biome": "1.9.4",
     "@types/bun": "latest"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "hono": "^4.6.17",
+    "node-html-parser": "^7.0.1",
+    "openai": "^4.79.1"
   }
 }
